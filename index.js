@@ -22,11 +22,13 @@ function changeBoxColor() {
  */
 function addNewItem() {
   // TODO: Implement this function
-  let li = document.createElemet("li");
-  li.textContent("New Item");
+const li = document.createElement("li");
+  li.textContent = "New Item";
+  li.classList.add("item"); 
 
-  let list = document.getElementById("item-list");
+  const list = document.getElementById("item-list");
   list.appendChild(li);
+  
 }
 
 /**
