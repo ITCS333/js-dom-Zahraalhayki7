@@ -3,6 +3,7 @@
  */
 
 function changeHeadingText() {
+  // TODO: Implement this function
   let heading = document.getElementById("main-heading");
   heading.textContent = "DOM Manipulation Challenge";
 }
@@ -11,6 +12,7 @@ function changeHeadingText() {
  * Selects the element with the id 'box-to-modify' and changes its background color to 'lightblue'.
  */
 function changeBoxColor() {
+  // TODO: Implement this function
  let box = document.getElementById("box-to-modify");
   box.style.backgroundColor = "lightblue";
 }
@@ -19,6 +21,7 @@ function changeBoxColor() {
  * Creates a new <li> element, sets its text content to 'New Item', and appends it to the <ul> with the id 'item-list'.
  */
 function addNewItem() {
+  // TODO: Implement this function
   let li = document.createElemet("li");
   li.textContent("New Item");
 
@@ -30,7 +33,7 @@ function addNewItem() {
  * Selects the paragraph with the class 'content-para' and adds the class 'highlight' to it.
  */
 function highlightParagraph() {
-
+// TODO: Implement this function
   let paragraph = document.querySelector(".content-para");
   paragraph.classList.add("highlight");
   
@@ -40,6 +43,7 @@ function highlightParagraph() {
  * Selects the element with the id 'to-be-removed' and removes it from the DOM.
  */
 function removeElement() {
+  // TODO: Implement this function
   let ele = document.getElementById("to-be-removed");
   ele.remove();
 }
